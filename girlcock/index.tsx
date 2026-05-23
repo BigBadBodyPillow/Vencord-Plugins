@@ -10,8 +10,8 @@ const urlList = [
     { title: "fxtwitter", url: "https://fxtwitter.com/" },
     { title: "hotyurisex", url: "https://hotyurisex.com/" },
     { title: "hitlerx", url: "https://hitlerx.com/" },
-    { title: "imthehottest18yearoldononlyfansx", url: "https://imthehottest18yearoldononlyfansx.com/" }
-    // { title: "girlcockx", url: "https://girlcockx.com" },
+    { title: "imthehottest18yearoldononlyfansx", url: "https://imthehottest18yearoldononlyfansx.com/" },
+    { title: "girlcockx", url: "https://girlcockx.com" }
     // { title: "boycuntx", url: "https://boycuntx.com/" },
     // { title: "yaoisex", url: "https://yaoisex.com/" },
     // { title: "niggerfaggotx", url: "https://niggerfaggotx.com/" },
@@ -47,11 +47,11 @@ const settings = definePluginSettings({
             {
                 label: urlList[5].title,
                 value: urlList[5].url,
+            },
+            {
+                label: "girlcockx",
+                value: "https://girlcockx.com/",
             }
-            // {
-            //     label: "girlcockx",
-            //     value: "https://girlcockx.com/",
-            // },
             // {
             //     label: "boycuntx",
             //     value: "https://boycuntx.com/",
@@ -68,7 +68,7 @@ const settings = definePluginSettings({
     },
     Random: {
         type: OptionType.BOOLEAN,
-        description: "Status to set while playing a game",
+        description: "Choose which url to replace x links",
     }
 });
 
