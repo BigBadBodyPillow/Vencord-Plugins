@@ -11,7 +11,7 @@ const urlList = [
     { title: "hotyurisex", url: "https://hotyurisex.com/" },
     { title: "hitlerx", url: "https://hitlerx.com/" },
     { title: "imthehottest18yearoldononlyfansx", url: "https://imthehottest18yearoldononlyfansx.com/" },
-    { title: "girlcockx", url: "https://girlcockx.com" }
+    { title: "girlcockx", url: "https://girlcockx.com/" }
     // { title: "boycuntx", url: "https://boycuntx.com/" },
     // { title: "yaoisex", url: "https://yaoisex.com/" },
     // { title: "niggerfaggotx", url: "https://niggerfaggotx.com/" },
@@ -49,8 +49,8 @@ const settings = definePluginSettings({
                 value: urlList[5].url,
             },
             {
-                label: "girlcockx",
-                value: "https://girlcockx.com/",
+                label: urlList[6].title,
+                value: urlList[6].url,
             }
             // {
             //     label: "boycuntx",
